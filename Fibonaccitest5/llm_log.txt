@@ -1,0 +1,41 @@
+
+Session Memory:
+[
+  {
+    "role": "user",
+    "message": "User wants to: \"Python scripts for counting fibonaccis\". Analyze the task and create a detailed plan with steps, required libraries, and commands to execute. Use the specified format for tasks. Generate only one task per response."
+  }
+]
+
+User: 
+User wants to: "Python scripts for counting fibonaccis". Analyze the task and create a detailed plan with steps, required libraries, and commands to execute. Use the specified format for tasks. Generate only one task per response.
+
+ LLM Response:
+1. Create the main Python file. [$execute_command("fibonacci.py|import sys")] [$command_type("write_file")]
+
+
+Session Memory:
+[
+  {
+    "role": "user",
+    "message": "User wants to: \"Python scripts for counting fibonaccis\". Analyze the task and create a detailed plan with steps, required libraries, and commands to execute. Use the specified format for tasks. Generate only one task per response."
+  },
+  {
+    "role": "model",
+    "message": "1. Create the main Python file. [$execute_command(\"fibonacci.py|import sys\")] [$command_type(\"write_file\")]\n"
+  },
+  {
+    "role": "user",
+    "message": "Task \"Create the main Python file. [$execute_command(\"fibonacci.py|import sys\")] [$command_type(\"write_file\")]\" executed successfully. Here's the report:\nFile written to C:\\Users\\Ruruh Basanta\\Videos\\apps\\self-building-bot\\Fibonaccitest5\\fibonacci.py\n\nIs this the expected result? If yes, respond with {{true}}. If not, respond with {{false, rewrite_the_file: 'file_name', script: 'correction_script'}}."
+  }
+]
+
+User: 
+Task "Create the main Python file. [$execute_command("fibonacci.py|import sys")] [$command_type("write_file")]" executed successfully. Here's the report:
+File written to C:\Users\Ruruh Basanta\Videos\apps\self-building-bot\Fibonaccitest5\fibonacci.py
+
+Is this the expected result? If yes, respond with {{true}}. If not, respond with {{false, rewrite_the_file: 'file_name', script: 'correction_script'}}.
+
+ LLM Response:
+{{true}}
+

@@ -1,0 +1,1 @@
+@echo off\npython -c \"import fileinput; with fileinput.FileInput('fibonacci.py', inplace=True, backup='.bak') as file: for line in file: if line.strip().startswith('import systry'): print('import sys') else: print(line.rstrip())\"\nexit /b 0
