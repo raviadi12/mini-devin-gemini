@@ -1,7 +1,7 @@
 # mini-devin-gemini
  A Devin like but with Gemini and maybe better :D
 
-![Alt Text](https://raviadi12.github.io/ScreenRecording2024-11-10134102-ezgif.com-video-to-gif-converter.gif)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 # Example usage
 
