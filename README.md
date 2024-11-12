@@ -34,13 +34,6 @@ A Devin-like tool powered by Gemini, designed for enhanced code generation and t
 
 The AI will then generate a plan and start executing tasks.  Follow the console output for progress and any additional instructions.
 
-<<<<<<< Updated upstream
-![alt text](https://raviadi12.github.io/ScreenRecording2024-11-10134102-ezgif.com-video-to-gif-converter.gif "Logo Title Text 1")
-=======
-
-# Capabilities
->>>>>>> Stashed changes
-
 Gemini Can run the following command for achieving the task you want
 
 * **Supported Command Types:**
