@@ -49,6 +49,11 @@ Gemini Can run the following command for achieving the task you want
     * `read_file`: Reads the content of a file.
     * `delete_file`: Deletes a file.
 
+# Additional Notes
+The code currently is in not structured mode, any commit to restrutcture or refactor code is welcome! 
+
+* If you want to change the model, you can change the model inside the `index.js` at Line around 742
+
 # Future Enhancements
 
 * **Improved code analysis:** More robust error detection and correction.
