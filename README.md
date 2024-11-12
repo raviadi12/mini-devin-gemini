@@ -60,4 +60,5 @@ The code currently is in not structured mode, any commit to restrutcture or refa
 * **Support for more languages:** Expand beyond shell and Node.js.
 * **Plugin system:** Allow users to extend functionality.
 * **Interactive debugging:**  Enable interactive debugging sessions with the AI.
+* **Pinecone Integration:**  Enable integration with Pinecone for effective super-duper long context length.
 
